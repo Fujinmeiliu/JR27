@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+   
+}
+
+form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 400x;
+    margin: auto;
+
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+label {
+    display: block;
+}
+
+button {
+    background-color: rgba(10, 160, 10, 0.726);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80%; ;
+}
+
+button:hover {
+    background-color: rgba(18, 199, 130, 0.568);
+}

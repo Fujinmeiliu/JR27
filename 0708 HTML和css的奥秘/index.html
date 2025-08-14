@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <form>
+        <h2><span class="dot"></span>Your basic info</h2>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required maxlength="30"><br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required maxlength="30"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="userName">Username:</label>
+        <input type="text" id="userName" name="userName" required><br><br>
+        <label for="passWord">Password:</label>
+        <input type="password" id="passWord" name="passWord" required minlength="6"><br><br>
+    <h2><span class="dot"></span>Other details</h2>
+        <label for="birthDate">Birth Date:</label>
+        <input type="date" id="birthDay" name="birthDate" required><br><br>
+        <p>Gender:</p>
+        <lable><input type="radio" name="gender" value="Male" required>Male</lable><br>
+        <lable><input type="radio" name="gender" value="Female" required>Female</lable><br>
+        <lable><input type="radio" name="gender" value="other" required>Other</lable><br><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="China">China</option>
+            <option value="singapore">Singapore</option>
+        </select><br><br>
+        <label>
+            <input type="checkbox" name="terms" required>
+            I am accepting Terms and Conditions
+        </label><br>
+        <button type="submit">Sign up</button>
+        
+     </form>
+</body>
+</html>
