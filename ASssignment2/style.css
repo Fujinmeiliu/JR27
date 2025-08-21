@@ -1,0 +1,71 @@
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   background: #f0f2f5;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.card1 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: whhite;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+   
+}
+
+.card2 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: whhite;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card1 button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.card2 button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+.card1 button:hover {
+    background: #ddd;
+}
+
+
+.card2 button:hover {
+    background: #ddd;
+}
+
